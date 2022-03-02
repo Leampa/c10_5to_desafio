@@ -4,8 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="../diseno/style.css">
         
+        
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+        <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet"/>
+        <!-- Linkeo mi CSS -->
+        <link rel="stylesheet" href="../diseno/style.css">
+
         <title>[C11] 5ta entrega - Leandro Pagano]</title>
 
 
@@ -19,7 +28,7 @@
         </div>
       
         <div class="col">
-          <h1 class="text-center font-monospace display-3 fw-bold">Clases y horarios</h1>
+          <h1 class="text-center font-monospace display-3 fw-bold py-2">Clases y horarios</h1>
           
           <nav class="nav nav-pills flex-column flex-sm-row border">
             <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="../index.html">TURNO MAÑANA</a>
@@ -73,10 +82,54 @@
 
           </main>
 
-          <footer>
-            <h2> Gimnasio Rick And Summer</h2>
-            <p>Av. Mitre 1234,Turdera.</p>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imgs/bailechino.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imgs/danzaarmenia.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imgs/funcional.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imgs/judo.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
+
+          <footer>
+           <div class="row">
+            <div class="col-6">
+              <h2> Gimnasio Rick And Summer</h2>
+              <p>Av. Mitre 1234,Turdera.</p>
+
+            </div> 
+            <div class="col-6 d-flex justify-content-end" id="links">
+              <a href="#"><i class="fab fa-whatsapp fa-3x p-1 "></i></a>
+              <a href="#"><i class="fab fa-instagram fa-3x p-1"></i></a>
+              <a href="#"><i class="fab fa-facebook-f fa-3x p-1"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-3x p-1s"></i></a>       
+              
+            </div>
+            
+          </div>
 
           </footer>
       </div>
